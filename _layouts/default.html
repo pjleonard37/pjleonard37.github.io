@@ -1,27 +1,13 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>	
-		        	<li><a href="/projects">Projects</a></li>
-	    			<li><a href="/blog">Maps & Musings</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div>
-			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/pjleonard37">github.com/pjleonard37</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include header.html %}
+		{% include about.html %}
+		{% include page_content.html %}
+		{% include contact.html %}
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>

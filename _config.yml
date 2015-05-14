@@ -1,3 +1,30 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://patrick-leonard.com
+title: Patrick Leonard - Coder & Cartographer
+email: me@patrick-leonard.com
+author: Patrick Leonard
+description: > # "Patrick Leonard. Coder & Cartographer. Working with JavaScript, Leaflet, HTML, CSS."
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
 name: Patrick Leonard
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/pj_leonard
+  - title: github
+    url: https://github.com/pjleonard37
+  - title: linkedin
+    url: https://www.linkedin.com/in/leonardpatrick
