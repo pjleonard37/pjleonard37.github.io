@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+h2{
+    text-align: center;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -31,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/MapGrab.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -39,6 +43,12 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+}
+
+.intro-box{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .intro-message > h1 {

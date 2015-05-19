@@ -1,6 +1,10 @@
 <section id="projects">
 <!-- Page Content -->
-{% for post in site.posts reversed %}
+<br/>
+<br/>
+<br/>
+<h2>Projects</h2>
+{% for post in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
