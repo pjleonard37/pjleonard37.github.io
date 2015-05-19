@@ -1,6 +1,6 @@
 ---
 layout: default
-img: mbta.png
+img: pomodoro.png
 category: Projects
 title: Pomodoro Knockout
 date: 2014-11-20
