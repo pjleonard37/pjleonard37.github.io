@@ -4,7 +4,7 @@
 <br/>
 <br/>
 <h1 class="page-title">{{ page.title }}</h1>
-<p class="date-category">{{ page.date | date_to_string }} | {{ page.tags }}</p>
+<p class="date-category">{{ page.date | date_to_string }} | {% for tags in page.tags %}{{ page.tags }} ~ {% endfor %}</p>
 
 <div class="blog-post-full">
   <img class="img-responsive" src="/img/projects/{{ page.img }}" alt="">
