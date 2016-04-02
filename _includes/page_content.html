@@ -6,7 +6,7 @@
 <h2>Recent Blog Posts</h2>
 {% for post in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
+    {% if thecycle == 'even' %}
     <div class="content-section-a">
 
         <div class="container">
