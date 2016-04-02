@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 img: masscontamination.png
 category: Projects
 title: Massachusetts Contamination Concentration, 2010
