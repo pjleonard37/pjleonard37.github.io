@@ -24,6 +24,10 @@ h6 {
 h2, h4{
     text-align: center;
 }
+h4 {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
 
 .lead {
     font-size: 18px;
@@ -111,6 +115,9 @@ h2, h4{
 
 .section-heading {
     margin-bottom: 30px;
+    a {
+      color: rgb(51,51,51);
+    }
 }
 
 .section-heading-spacer {

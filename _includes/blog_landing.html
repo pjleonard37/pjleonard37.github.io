@@ -15,8 +15,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
-                    <h3>{{ post.date | date_to_string }}</h3>
+                    <h2 class="section-heading"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                    <h4>{{ post.date | date_to_string }}</h4>
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
