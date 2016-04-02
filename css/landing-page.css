@@ -121,6 +121,9 @@ h4 {
       margin-bottom: 30px;
       float: none;
     }
+    .navbar-brand {
+        padding-right: 0;
+    }
 }
 
 .network-name {
