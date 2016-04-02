@@ -29,9 +29,20 @@ h4 {
   margin-bottom: 30px;
 }
 
-.page-title, .date-category, .blog-post-full {
+.page-title, .date-category{
   text-align: center;
 }
+
+.blog-post-full {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-post-full img {
+  max-height: 300px;
+  float: right;
+}
+
 
 .lead {
     font-size: 18px;
