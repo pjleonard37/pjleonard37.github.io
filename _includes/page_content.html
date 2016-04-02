@@ -4,7 +4,7 @@
 <br/>
 <br/>
 <h2>Recent Blog Posts</h2>
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'even' %}
     <div class="content-section-a">

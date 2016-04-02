@@ -4,7 +4,7 @@
 <br/>
 <br/>
 <h2>Maps & Musings</h2>
-{% for post in site.posts limit:3 %}
+{% for post in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'even' %}
     <div class="content-section-a">
