@@ -4,10 +4,10 @@
 <br/>
 <br/>
 <h1 class="page-title">{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }} | {{ page.category }}</p>
+<p class="date-category">{{ page.date | date_to_string }} | {{ page.category }}</p>
 
-<div class="post">
-  <img class="img-responsive" src="/img/projects/{{ post.img }}" alt="">
+<div class="blog-post-full">
+  <img class="img-responsive" src="/img/projects/{{ page.img }}" alt="">
   <div class="blog-body">{{ page.content }}</div>
 </div>
 </section>
