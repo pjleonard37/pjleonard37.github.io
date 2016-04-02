@@ -40,6 +40,11 @@ h4 {
   margin-top: 50px;
 }
 
+.blog {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .blog-post-full img {
   max-height: 300px;
   float: right;
