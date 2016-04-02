@@ -17,7 +17,7 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
                     <h4>{{ post.date | date_to_string }}</h4>
-                    <div class="lead">{{ post.content }}</div>
+                    <div class="lead">{{ post.excerpt }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="../img/projects/{{ post.img }}" alt="">
@@ -41,7 +41,7 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
                     <h4>{{ post.date | date_to_string }}</h4>
-                    <div class="lead">{{ post.content }}</div>
+                    <div class="lead">{{ post.excerpt }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                   <img class="img-responsive" src="../img/projects/{{ post.img }}" alt="">
