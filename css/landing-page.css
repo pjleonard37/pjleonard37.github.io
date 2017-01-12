@@ -32,6 +32,7 @@ h2, h4{
 .aboutme {
   max-width: 600px;
   margin: 0 auto;
+  float: none;
 }
 
 .blog-post-full {
