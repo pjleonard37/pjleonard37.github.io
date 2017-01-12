@@ -29,6 +29,11 @@ h2, h4{
   text-align: center;
 }
 
+.aboutme {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .blog-post-full {
   max-width: 900px;
   margin: 0 auto;
