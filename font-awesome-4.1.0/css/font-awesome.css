@@ -796,6 +796,7 @@
 .fa-sort-asc:before {
   content: "\f0de";
 }
+.fa-e-mail:before,
 .fa-envelope:before {
   content: "\f0e0";
 }

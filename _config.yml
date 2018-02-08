@@ -22,8 +22,6 @@ permalink: /blog/:year/:month/:day/:title
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/pj_leonard
   - title: github
     url: https://github.com/pjleonard37
   - title: linkedin
