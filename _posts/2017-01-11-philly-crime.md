@@ -9,4 +9,4 @@ description: |
 This visualization explores crime in Philadelphia over the past 30 days. This is a work in progress.
 <br>
 <br>
-Live version located at: <a href="https://www.patrick-leonard.com/phillycrime">Philly Crime</a>
+Live version located at: <a href="http://www.patrick-leonard.com/phillycrime">Philly Crime</a>
