@@ -6,7 +6,7 @@ title: Canadian Immigration
 date: 2018-05-11
 description: |
 ---
-This project visualizes immigration to Canada over the past 75 years.
+This project visualizes immigration to Canada over the past 75 years by nation of origin.
 
 <br>
 <br>
