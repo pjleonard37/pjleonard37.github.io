@@ -2,7 +2,7 @@
 layout: post
 img: philly.png
 category: Projects
-title: Crime Philly
+title: Philly Crime
 date: 2017-01-11
 description: |
 ---
