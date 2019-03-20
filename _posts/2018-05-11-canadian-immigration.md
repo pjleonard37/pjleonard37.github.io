@@ -7,7 +7,6 @@ date: 2018-05-11
 description: |
 ---
 This project visualizes immigration to Canada over the past 75 years by nation of origin.
-
 <br>
 <br>
-Live version located at: <a href="http://www.patrick-leonard.com/CanadianImmigration">Canadian Immigration</a>
+Live version located at: <a href="https://www.patrick-leonard.com/CanadianImmigration">Canadian Immigration</a>
