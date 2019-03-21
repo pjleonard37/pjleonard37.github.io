@@ -8,4 +8,3 @@ description: |
 ---
 A real-time model of the MBTA's Red, Orange, and Blue Lines.
 <br>
-<br>
